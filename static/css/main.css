@@ -1,0 +1,136 @@
+.item {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 1px solid rgb(234, 237, 240);
+  padding: 10px 10px 10px 10px;
+}
+
+.item__icon {
+  width: 50px;
+  height: 50px;
+}
+
+.item__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 10px;
+}
+
+.item__desc-info {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.item__desc-price {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.question {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 10px;
+  padding-right: 13px;
+}
+
+.question__time {
+  font-size: 10px;
+  color: rgb(167, 176, 189);
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.question__msg {
+  background-color: darkorange;
+  color: white;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 15px 10px 15px 10px;
+  font-size: 12px;
+}
+
+.answer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 10px;
+  padding-left: 11px;
+}
+
+.answer__icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.answer__msg {
+  background-color: whitesmoke;
+  color: black;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 12px 10px 12px 10px;
+  font-size: 12px;
+}
+
+.answer__time {
+  font-size: 10px;
+  color: rgb(167, 176, 189);
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.promise {
+  border: 1px solid rgb(234, 237, 240);
+  border-radius: 5px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.promise-iconpoket {
+  width: 15px;
+  height: 29px;
+  margin-right: 5px;
+}
+
+.promise-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.promise__info-date {
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.promise__info-desc {
+  font-size: 10px;
+}
+
+.alarm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alarm_desc {
+  font-size: 11px;
+  margin-top: 10px;
+}

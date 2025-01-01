@@ -1,0 +1,68 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  background-color: rgb(234, 237, 240);
+  height: 40px;
+}
+
+.footer__plus-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+.footer__paper-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.footer__msg {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer__msg input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.footer__msg button {
+  border: none;
+  background-color: darkorange;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.footer__msg button:hover {
+  background-color: orange;
+}
+
+.smile__dot-pocket {
+  width: 5px;
+  height: 25px;
+  padding-top: 2px;
+}
+
+.smile__dot {
+  width: 5px;
+  height: 5px;
+  background-color: orange;
+  border-radius: 10px;
+}
